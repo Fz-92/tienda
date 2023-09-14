@@ -5,4 +5,18 @@
     background-size: cover;
     height:50rem;  
     }
-    
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color:lavender;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: lavender;
+}
+
+.navbar{
+    background-color: #ccb28d;
+}
