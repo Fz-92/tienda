@@ -1,6 +1,6 @@
 /*Imagen principal*/
 .inicio {
-  --opacidad-negro: 0.5;
+  --opacidad-negro: 0.4;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--opacidad-negro)),
       rgba(0, 0, 0, var(--opacidad-negro))
@@ -31,16 +31,30 @@
 }
 /*Color de fondo de las tarjetas*/
 .card {
-  background-color: #A8A8A8;
+  background-color: silver;
 }
 /*Texto de las tarjetas*/
 .card-text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 1000;
-  text-align: center;
-  color: lavender;
+  font-family: 'Montserrat', sans-serif ;
+  text-align: justify ;
+  color: white;
+}
+
+.card-title{
+  color: black;
+  font-family: 'Bebas Neue', sans-serif ;
+  font-size: 22px;
+}
+
+.btn-primary{
+  background-color: steelblue;
+  border-color: steelblue;
 }
 .politicas {
   background-color: #7B7B7B;
   text-align: center;
+}
+
+a{
+  color: aliceblue;
 }
